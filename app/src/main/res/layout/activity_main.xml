@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frame"
+    tools:context="com.akashdubey.creditcardhelper.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv1"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edCardbalance"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:textColor="@color/tv"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv2"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edInterestRate"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv3"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edMinimumPayment"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv4"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edFinalCardBalance"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv5"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edMonthRemaining"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ems="10"
+            android:text="@string/tv6"
+            android:textColor="@color/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edInterestToPay"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:text="@string/compute"
+        android:layout_height="60dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/clear"
+        android:layout_height="60dp" />
+
+
+    </LinearLayout>
+

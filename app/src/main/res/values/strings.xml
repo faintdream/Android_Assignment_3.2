@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CreditCardHelper</string>
+    <string name="tv1">Enter Card Balance ($)</string>
+    <string name="tv2">Enter Yearly Interest Rate (%) </string>
+    <string name="tv3">Enter Minimum Payment ($)</string>
+    <string name="tv4">Final Card Balance ($)</string>
+    <string name="tv5">Months Remaining </string>
+    <string name="tv6">Interest Paid Will Be ($)</string>
+    <string name="compute">Compute</string>
+    <string name="clear">clear</string>
+</resources>
